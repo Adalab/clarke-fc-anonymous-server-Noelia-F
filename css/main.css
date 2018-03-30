@@ -63,6 +63,7 @@ body {
   text-decoration: none;
   text-align: center;
   font-size: 32px;
+  width: 100%;
 }
 .nav__item {
   display: block;
@@ -151,6 +152,12 @@ body {
   .page__wrapper {
     padding: 20px 40px;
   }
+  .nav__items {
+    font-size: 36px;
+  }
+  .nav__item {
+    padding: 5px;
+  }
 }
 
 @media all and (min-width: 1240px) {
@@ -162,5 +169,8 @@ body {
   }
   .page__footer {
     width: 80%;
+  }
+  .nav__items {
+    font-size: 42px;
   }
 }
