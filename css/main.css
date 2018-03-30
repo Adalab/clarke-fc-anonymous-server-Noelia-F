@@ -122,15 +122,17 @@ body {
   height: 80%;
   display: flex;
   justify-content: flex-start;
-  align-items: center;}
+  align-items: center;
+}
+
 .page__wrapper {
   padding: 20px 30px;
 }
 .page__main-title {
   color: white;
-  font-size: 32px;
+  font-size: 38px;
   text-align: left;
-  max-width: 320px;
+  max-width: 400px;
 }
 
 
