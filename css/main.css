@@ -40,12 +40,17 @@ body {
   height: 0px;
   padding-top: 45px;
   overflow: hidden;
+  cursor: pointer;
+}
+.nav-trigger:hover{
+  width: 50px;
+  padding-top: 50px;
 }
 
 
 /* MENU */
 .nav {
-  background-color: rgba(75, 50, 51, 0.9);
+  background-color: rgba(64, 41, 41, 0.92);
   position: fixed;
   top: 0;
   left: 0;
@@ -95,6 +100,12 @@ body {
   height: 0px;
   padding-top: 45px;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.nav-close:hover{
+  width: 50px;
+  padding-top: 50px;
 }
 
 .hidden{
@@ -111,15 +122,15 @@ body {
   height: 80%;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-}
+  align-items: center;}
 .page__wrapper {
-  padding: 20px 25px;
+  padding: 20px 30px;
 }
 .page__main-title {
-  max-width: 320px;
   color: white;
   font-size: 32px;
+  text-align: left;
+  max-width: 320px;
 }
 
 
@@ -138,7 +149,7 @@ body {
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
   font-size: 14px;
-  font-family: sans-serif;
+  font-family: Arial;
 }
 
 
@@ -151,11 +162,14 @@ body {
 }
 
 @media all and (min-width: 768px) {
+  .page__main{
+    max-width: 990px;
+  }
   .page__main-title {
-    font-size: 52px;
+    font-size: 68px;
   }
   .page__wrapper {
-    padding: 20px 40px;
+    padding: 20px 60px;
   }
   .nav__items {
     font-size: 36px;
@@ -167,10 +181,7 @@ body {
 
 @media all and (min-width: 1240px) {
   .page__main-title {
-    font-size: 80px;
-  }
-  .page__main {
-    width: 80%;
+    font-size: 86px;
   }
   .page__footer {
     width: 80%;
