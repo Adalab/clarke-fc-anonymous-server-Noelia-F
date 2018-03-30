@@ -6,12 +6,11 @@ body {
   font-family: 'Roboto Slab';
 }
 .page {
-  background-image: url('../images/anonymous-server-background.jpg'),linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.35) 50%);
+  background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.35) 50%), url('../images/anonymous-server-background.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,6 +23,7 @@ body {
 /* HEADER */
 .page__header {
   position: relative;
+  height: 20%;
 }
 .nav-trigger {
   background-image: url('../images/ico-menu.svg');
@@ -101,9 +101,13 @@ body {
 /* MAIN */
 .page__main {
   text-transform: uppercase;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .page__wrapper {
-  padding: 20px;
+  padding: 20px 25px;
 }
 .page__main-title {
   color: white;
@@ -114,6 +118,17 @@ body {
 
 
 /* FOOTER */
+.page__footer {
+  width: 100%;
+}
 .page__footer {}
-.page__footer {}
-.page__footer-copy {}
+.page__footer-copy {
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: 14px;
+  font-family: sans-serif;
+}
