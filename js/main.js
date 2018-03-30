@@ -14,7 +14,7 @@ function hideMenu(){
   burger.classList.remove('hidden');
 }
 
-var items = document.querySelectorAll('.nav__item');
+const items = document.querySelectorAll('.nav__item');
 for(var i=0; i < items.length; i++) {
 	items[i].addEventListener('click', hideMenu);
 }
